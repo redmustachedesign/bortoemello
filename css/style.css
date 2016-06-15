@@ -1,0 +1,266 @@
+body, html{
+height: 100%;
+-webkit-font-smoothing: antialiased;
+font-family: 'Open Sans', sans-serif;
+}
+
+header{
+background-image: url('../images/background-top.jpg');
+background-position: 50% 50%;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+height: 100%;
+padding: 30px 0;
+overflow: hidden;
+}
+
+#logo-home img{
+	width: 100%;
+}
+
+.menu-header a{
+	color: white;
+}
+
+.menu-header a:hover{
+	color: white;
+}
+
+.menu-header{
+	padding: 50px 0;
+}
+
+.menu-header li{
+	list-style: none;
+	display: inline-block;
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding-left: 35px;
+}
+
+#text-header{
+	color: white;
+	margin-top: 40px;
+}
+
+#text-header h2{
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#text-header p{
+	font-size: 20px;
+	font-weight: 300;
+}
+
+#predio-header img{
+	width: 100%;
+}
+
+/*FAUX MENU*/
+#faux-menu{
+	position: fixed;
+	width: 100%;
+	background: white;
+	z-index: 999;
+	-webkit-box-shadow: 0px 6px 34px -6px rgba(0,0,0,0.62);
+	-moz-box-shadow: 0px 6px 34px -6px rgba(0,0,0,0.62);
+	box-shadow: 0px 6px 34px -6px rgba(0,0,0,0.62);
+	display: none;
+}
+
+#faux-menu a{
+	color:#004c6c;
+}
+
+#logo-faux{
+	padding: 10px 40px 40px 40px;
+}
+
+#faux-menu img{
+	width: 100%;
+}
+
+#faux-menu .menu-header{
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+
+/*QUEM SOMOS*/
+#quem-somos h1{
+	color: #006ba3;
+}
+
+.thumb-socio{
+	text-align: center;
+}
+
+.thumb-socio h3{
+	color: #006ba3;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 30px !important;
+}
+
+.foto-socio{
+	width: 347px;
+	height: 347px;
+	margin: 0 auto;
+	border-radius: 200px;
+	background: #999;
+	overflow: hidden;
+}
+
+/*MOLDADOS*/
+#moldados{
+	background-image: url('../images/background-moldados.jpg');
+	background-position: 50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+}
+
+#moldados p{
+	color: white;
+}
+
+.thumb-moldados{
+	text-align: center;
+}
+
+.thumb-moldados h3{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 30px !important;
+}
+
+.foto-moldados{
+	width: 347px;
+	height: 347px;
+	margin: 0 auto;
+	border-radius: 200px;
+	background: #fff;
+	overflow: hidden;
+	border: solid white 5px;
+}
+
+/*CASAS MODULARES*/
+#casas-modulares h1{
+	color: #006ba3;
+}
+
+#text-modulares{
+	margin-top: 10%;
+}
+#casas-modulares p{
+	text-align: left;
+}
+
+/*PROJETO*/
+#projeto{
+	background-image: url('../images/background-projeto.jpg');
+	background-position: 50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+	padding: 100px 0;
+}
+
+#projeto p{
+	color: white;
+}
+
+/*GENERAL*/
+section{
+	padding: 20px 0px 30px 0px;
+}
+
+section h1{
+	font-weight: 700;
+	text-align: center;
+	padding: 3px 0px;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+section p{
+	text-align: center;
+	font-size: 15px;
+	line-height: 25px;
+	margin-bottom: 30px;
+	color: #333;
+}
+
+.cap-text{
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.btn-type-01:hover{
+	background: rgba(255,255,255,0.1);
+}
+
+.btn-type-01{
+	margin-top: 10px;
+	background: none;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 18px;
+	border-radius: 10px;
+	border: solid 2px white;
+	padding: 10px 0;
+}
+
+.btn-type-02{
+	margin-top: 10px;
+	background: none;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 18px;
+	border-radius: 10px;
+	border: solid 2px #004c6c;
+	padding: 10px 0;
+	color: #004c6c;
+}
+
+.btn-type-02:hover{
+	background: rgba(0,76,108,0.1);
+}
+
+/*FOOTER*/
+footer{
+	clear: both;
+	background: white;
+	padding: 30px 0px;
+	color: #333;
+}
+
+
+/*TABLET PAISAGEM*/
+@media (max-width: 991px) {
+
+}
+
+/*TABLET RETRATO*/
+@media (max-width: 768px) {
+
+}
+
+/*CELULAR PAISAGEM*/
+@media (max-width: 767px) {
+
+}
+
+/*CELULAR RETRATO*/
+@media (max-width: 479px) {
+	header{
+		height: 100%;
+	}
+}
