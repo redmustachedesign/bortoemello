@@ -10,7 +10,8 @@ background-position: 50% 50%;
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
-height: 100%;
+min-height: 100%;
+max-height: 100%;
 padding: 30px 0;
 overflow: hidden;
 }
@@ -69,7 +70,13 @@ overflow: hidden;
 	-webkit-box-shadow: 0px 6px 34px -6px rgba(0,0,0,0.62);
 	-moz-box-shadow: 0px 6px 34px -6px rgba(0,0,0,0.62);
 	box-shadow: 0px 6px 34px -6px rgba(0,0,0,0.62);
-	display: none;
+	top: -180px;
+	-webkit-transition: all 0.8s ease;
+	transition: all 0.8s ease;
+}
+
+#faux-menu.visible{
+	top: 0px;
 }
 
 #faux-menu a{
@@ -255,12 +262,77 @@ footer{
 
 /*CELULAR PAISAGEM*/
 @media (max-width: 767px) {
-
+	header{
+		overflow: visible;
+		max-height: none;
+	}
+	#logo-home{
+		padding: 0 30%;
+	}
+	#faux-menu{
+		display: none;
+	}
+	.menu-header li{
+		display: block;
+	}
+	#text-header h2{
+		font-size: 30px;
+	}
+	#predio-header{
+		display: none;
+	}
+	.foto-socio{
+		width: 100%;
+		height: 270px;
+	}
+	.foto-socio img{
+		width: 100%;
+	}
+	.foto-moldados{
+		width: 100%;
+		height: 270px;
+	}
+	.foto-moldados img{
+		width: 500px;
+	}
+	#casa-modular-foto img{
+		width: 100%;
+	}
 }
 
 /*CELULAR RETRATO*/
 @media (max-width: 479px) {
 	header{
-		height: 100%;
+		overflow: visible;
+		max-height: none;
+	}
+	#faux-menu{
+		display: none;
+	}
+	.menu-header li{
+		display: block;
+	}
+	#text-header h2{
+		font-size: 30px;
+	}
+	#predio-header{
+		display: none;
+	}
+	.foto-socio{
+		width: 100%;
+		height: 270px;
+	}
+	.foto-socio img{
+		width: 100%;
+	}
+	.foto-moldados{
+		width: 100%;
+		height: 270px;
+	}
+	.foto-moldados img{
+		width: 500px;
+	}
+	#casa-modular-foto img{
+		width: 100%;
 	}
 }
